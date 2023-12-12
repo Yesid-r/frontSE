@@ -103,9 +103,10 @@ const FormInteres = () => {
 
                     <button type='submit' class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Hacer Test</button>
                 </form>
+                {carreraRecomendada && <h2 >La carrera recomendada es {carreraRecomendada}</h2>}
             </div>
 
-            {carreraRecomendada && <h2>La carrera recomendada es {carreraRecomendada}</h2>}
+            
         </div>
     );
 };
